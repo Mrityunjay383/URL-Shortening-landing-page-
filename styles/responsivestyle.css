@@ -1,0 +1,299 @@
+@media screen and (max-width: 1200px) {
+  .tittle-img-2 {
+    width: 120%;
+    top: -5vh;
+  }
+
+  .input-container {
+    top: 10vh;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  /* NavBar Section */
+  .header {
+    justify-content: space-between;
+  }
+
+  .nav-lin {
+    position: absolute;
+    z-index: 2;
+    height: 46vh;
+    width: 50%;
+    align-self: center;
+    top: 9vh;
+    right: 27vh;
+    left: 27vh;
+    flex-direction: column;
+    background-color: #25233A;
+    border-radius: 30px;
+    border: 1px rgb(152, 151, 151) solid;
+    display: none;
+  }
+
+  .nav-ul-1, .nav-ul-2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .nav-lin a {
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+  }
+
+  .hrb {
+    background-color: rgb(231, 231, 231);
+    height: 1px;
+    width: 80%;
+  }
+
+  .signup a {
+    box-shadow: 0 7px 5px 0 #161622;
+  }
+
+  .signup a:hover {
+    background: white;
+  }
+
+  .nav-lin li {
+    opacity: 0;
+  }
+
+  .icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  /* Tittle Section */
+  .tittle-img-container-1 {
+    display: inline-block;
+  }
+
+  .tittle-img-container-2 {
+    display: none;
+  }
+
+  .tittle-content {
+    text-align: center;
+  }
+
+  .tittle-content h1 {
+    width: 80%;
+    margin: auto;
+  }
+
+  .tittle-content p {
+    width: 60%;
+    margin: auto;
+    padding: 30px 0;
+  }
+
+  .input-container {
+    top: 8vh;
+  }
+
+  .input-container input {
+    width: 73%;
+  }
+
+  /* feature Section  */
+  .feat-container {
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+  }
+  /* footer Section */
+
+  .footer-img, .icon-container{
+    text-align: center;
+    margin: 6vh 0;
+  }
+  .link-container{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-lin {
+    width: 70%;
+    left: 10vh;
+    right: 10vh;
+  }
+  .tittle-content h1{
+    font-size: 4.3rem;
+    width: 90%;
+  }
+  .tittle-content p{
+    width: 70%;
+  }
+
+  .input-container {
+    top: 6vh;
+  }
+  .feat-head p{
+    width: 65%;
+  }
+  .feat-container{
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .nav-lin {
+    width: 80%;
+    left: 5vh;
+    right: 5vh;
+  }
+  .tittle-img-1{
+    width: 80%;
+    left: 15vh;
+  }
+  .tittle-content h1{
+    width: 100%;
+    font-size: 4rem;
+  }
+  .tittle-content p{
+    width: 80%;
+  }
+  .input-container {
+    top: 12vh;
+  }
+
+  .input-container input, .input-container button {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .feature {
+    padding: 20vh 6% 6%;
+  }
+  .feat-head h2 {
+    font-size: 2.5rem;
+  }
+  .feat-head p{
+    font-size: 1rem;
+    width: 70%;
+  }
+  .feat-container{
+    width: 80%;
+  }
+  .feat-content h3 {
+    font-size: 1.7rem;
+  }
+  .feat-content p {
+    font-size: 0.9rem;
+  }
+  .content-2, .content-3 {
+    position: static;
+    margin-top: 30px;
+  }
+
+}
+@media screen and (max-width: 485px) {
+  .tittle-content h1{
+    font-size: 3rem;
+  }
+  .tittle-content p{
+    width: 100%;
+    font-size: 1.1rem;
+  }
+  .tittle-img-1{
+    width: 90%;
+    left: 10vh;
+  }
+  .feat-head h2 {
+    font-size: 2.2rem;
+  }
+  .feat-head p{
+    font-size: 0.9rem;
+    width: 90%;
+  }
+  .feat-container{
+    width: 90%;
+  }
+  .feat-content h3 {
+    font-size: 1.4rem;
+  }
+  .feat-content p {
+    font-size: 0.8rem;
+  }
+  .link-container{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .link-part{
+    margin: 15px 0;
+  }
+}
+@media screen and (max-width: 390px) {
+  .nav-lin {
+    width: 90%;
+    left: 2vh;
+    right: 2vh;
+  }
+  .tittle-img-1{
+    width: 100%;
+    left: 5vh;
+  }
+  .tittle-content h1{
+    font-size: 2.5rem;
+  }
+  .tittle-content p{
+    font-size: 0.9rem;
+  }
+  .feat-head h2 {
+    font-size: 1.8rem;
+  }
+  .feat-head p{
+    font-size: 0.8rem;
+    width: 80%;
+  }
+  .feat-container{
+    width: 100%;
+  }
+  .feat-content h3 {
+    font-size: 1.2rem;
+  }
+  .feat-content p {
+    font-size: 0.7rem;
+  }
+  .cta h2{
+    font-size: 1.5rem;
+  }
+}
+
+/*Used to animate slider navbar*/
+.icon-active {
+  display: flex;
+}
+
+/*Used to animate small navbar links*/
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+/*Used to animate top icon*/
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 1px);
+}
+
+.toggle .line2 {
+  display: none;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -1px);
+}

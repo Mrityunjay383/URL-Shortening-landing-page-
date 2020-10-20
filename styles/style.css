@@ -1,0 +1,272 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #333333;
+  overflow-x: hidden;
+}
+
+p {
+  color: rgb(152, 151, 151);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Bree Serif', serif;
+}
+
+/*NavBar Section*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  min-height: 8vh;
+  padding: 2% 6% 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-lin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-ul-1, .nav-ul-2 {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.nav-ul-2 {
+  justify-content: flex-end;
+}
+
+.nav-ul-1 a, .nav-ul-2 a {
+  text-decoration: none;
+  margin: 5px;
+  padding: 20px;
+  color: #333333;
+  font-size: 15px;
+}
+
+.nav-ul-1 a:hover, .nav-ul-2 a:hover {
+  color: rgb(3, 223, 255);
+}
+
+.signup a, .btn, .input-container button {
+  background-color: rgb(3, 223, 255);
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  box-shadow: 0 7px 5px 0 rgba(230, 230, 230, 1);
+  cursor: pointer;
+}
+
+.signup a:hover, .btn:hover, .input-container button:hover {
+  background-color: rgb(244, 244, 244);
+  color: rgb(3, 223, 255);
+}
+
+.icon {
+  display: none;
+}
+
+.icon div {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  transition: all 0.3s ease;
+  background-color: black;
+}
+
+/* Tittle section */
+.tittle {
+  padding: 6% 6% 2%;
+}
+
+.tittle-content h1 {
+  font-size: 4.5rem;
+}
+
+.tittle-content p {
+  font-size: 1.3rem;
+  width: 75%;
+}
+.tittle-img-container-1{
+  display: none;
+}
+.tittle-img-1{
+  width: 50%;
+  text-align: center;
+  padding: 0 0 5vh;
+  position: relative;
+  left: 30vh;
+  top: -5vh;
+}
+.tittle-img-2 {
+  position: absolute;
+  width: 100%;
+  top: -11vh;
+  left: 15vh;
+}
+
+.input-container {
+  padding: 3%;
+  border-radius: 8px;
+  background-color: #25233A;
+  margin-top: 7vh;
+  text-align: center;
+  position: relative;
+  top: 12vh;
+}
+
+.input-container input {
+  width: 85%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+}
+
+.input-container button {
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+/* feature Section */
+.feature {
+  padding: 11% 6% 10%;
+  background-color: #EFF1F7;
+}
+
+.feat-head {
+  text-align: center;
+  padding: 0 0 8vh;
+}
+
+.feat-head h2 {
+  font-size: 3rem;
+}
+
+.feat-head p {
+  font-size: 1.2rem;
+  width: 50%;
+  margin: auto;
+}
+
+.feat-container {
+  display: flex;
+}
+
+.feat-content {
+  background-color: white;
+  margin: 20px;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+.img-container {
+  background-color: #25233A;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  position: relative;
+  top: -3.5vh;
+}
+
+.feat-icon {
+  width: 30px;
+}
+
+.feat-content h3 {
+  font-size: 2rem;
+}
+
+.feat-content p {
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+.content-2 {
+  position: relative;
+  top: 4vh;
+}
+
+.content-3 {
+  position: relative;
+  top: 8vh;
+}
+
+/* CTA Section */
+
+.cta{
+  padding: 4% 6%;
+  text-align: center;
+  color: white;
+  background-color: #25233A;
+}
+.cta h2{
+  font-size: 1.8rem;
+}
+.cta-btn{
+  box-shadow: none;
+  margin: 20px 0 0;
+}
+
+/* footer Section */
+
+.footer{
+  padding: 3% 6%;
+  background-color: rgb(20, 20, 20);
+  color: #ffffff;
+}
+.link-container{
+  display: flex;
+  justify-content: center;
+}
+.link-part{
+  margin: 0 20px 0 0;
+}
+.link-list{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.link-list a{
+  text-decoration: none;
+  color: rgb(152, 151, 151);
+  padding: 2px 0;
+}
+.link-list a:hover{
+  color: rgb(3, 223, 255);
+}
+.icon-container{
+  text-align: right;
+}
+.icon-container img{
+  margin: 0 5px;
+}
+
+.credit {
+  width: 100%;
+  padding: 10px;
+  text-align: right;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: 'Balsamiq Sans', cursive;
+  background-color: rgb(20, 20, 20);
+}
+
+.credit-name {
+  font-family: 'Chelsea Market', cursive;
+  color: rgb(255, 89, 57);
+}
