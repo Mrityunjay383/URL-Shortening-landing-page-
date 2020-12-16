@@ -221,6 +221,12 @@
   .feat-content p {
     font-size: 0.8rem;
   }
+  .cta{
+    padding: 10vh 3%;
+  }
+  .cta-btn{
+    padding: 5px 15px;
+  }
   .link-container{
     flex-direction: column;
     align-items: center;
@@ -236,9 +242,13 @@
     left: 2vh;
     right: 2vh;
   }
+  .tittle-img-container-1{
+    overflow-x: hidden;
+  }
   .tittle-img-1{
     width: 100%;
     left: 5vh;
+    top: 0;
   }
   .tittle-content h1{
     font-size: 2.5rem;

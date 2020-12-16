@@ -1,7 +1,9 @@
+html{
+  overflow-x: hidden;
+}
 body {
   font-family: 'Josefin Sans', sans-serif;
   color: #333333;
-  overflow-x: hidden;
 }
 
 p {
@@ -97,6 +99,7 @@ h1, h2, h3, h4 {
 .tittle-content p {
   font-size: 1.3rem;
   width: 75%;
+  margin: 25px 0;
 }
 .tittle-img-container-1{
   display: none;
